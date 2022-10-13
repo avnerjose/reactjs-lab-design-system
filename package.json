@@ -41,7 +41,7 @@
     "vite": "^3.1.0"
   },
   "storybook-deployer": {
-    "gitUsername": "avnerjsoe",
+    "gitUsername": "avnerjose",
     "gitEmail": "avnerj.g.r@gmail.com",
     "commitMessage": "Deploy Storybook to GitHub Pages"
   }
