@@ -25,7 +25,7 @@ jobs:
         run: sudo yarn build-storybook
 
       - name: Deploy Storybook
-        run: sudo yarn deploy-storybook --ci --existing-output-dir=storybook-static
+        run: yarn deploy-storybook --ci --existing-output-dir=storybook-static
        
         env:
           GH_TOKEN: ${{github.actor}} ${{secrets.GITHUB_TOKEN}}
