@@ -24,9 +24,11 @@ jobs:
       - name: Build storybook
         run: sudo yarn build-storybook
 
+      - name: Show variables
+        run: echo ${{github.actor}} ${{secrets.GITHUB_TOKEN}}
+        
       - name: Deploy Storybook
         run: sudo yarn deploy-storybook --ci --existing-output-dir=storybook-static
-        with:
-          cmd: echo ${{github.actor}} ${{secrets.GITHUB_TOKEN}}
+       
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
