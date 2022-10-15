@@ -1,0 +1,2 @@
+import{B as t}from"./Button.d6d8cf01.js";import"./index.module.04ffb0a9.js";import"./index.7d152213.js";import"./iframe.1d7af70f.js";import"./clsx.m.256e9345.js";import"./jsx-runtime.32dfae25.js";const s={title:"Components/Button",component:t,args:{children:"Button example text"}},i={},a=["Default"];export{i as Default,a as __namedExportsOrder,s as default};
+//# sourceMappingURL=Button.stories.4218f05d.js.map
